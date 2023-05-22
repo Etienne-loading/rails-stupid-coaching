@@ -1,0 +1,20 @@
+<div class="container">
+<h1 class="title-big">Stupid Coach (a bit)</h1>
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= params[:input] %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">by you</cite>
+    </figcaption>
+  </figure>
+  <figure>
+    <blockquote class="blockquote box-answer">
+      <p><%= @answer %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">by YOUR COOOOACH</cite>
+    </figcaption>
+  </figure>
+  <p class="link"><%= link_to "Ask a new question", "/ask" %></p>
+</div>
